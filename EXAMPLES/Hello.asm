@@ -1,4 +1,4 @@
-STR>hello:"Hello World!"; Создание переменной Hello
-BUFFER:hello; Запись hello в буфер
+MOV TEXT,"Hello, World!"; Присвоить переменной TEXT значение
+MOV BUFFER,TEXT; Запись значения TEXT в буфер
 BUFOUT; Вывод значения из буфера
 END; Завершение программы
